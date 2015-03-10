@@ -9,7 +9,137 @@
 		</head>
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
-			<h1>It works!</h1>
+			<!-- Top Section of the site -->
+			<header>
+				<a href="#"></a>
+				<nav>
+					<a href="#"><cms:text constant="menu_trading_platform"/></a>
+					<a href="#"><cms:text constant="menu_list"/></a>
+					<a href="#"><cms:text constant="menu_education"/></a>
+					<a href="#"><cms:text constant="menu_partners"/></a>
+					<a href="#"><cms:text constant="menu_help"/></a>
+				</nav>
+				<h1><cms:text constant="header"/></h1>
+				<div class="form_wrap">
+					<h2><cms:text constant="form_title"/></h2>
+					<cms:module
+			 				name="contact_form"
+			 				action="show"
+			 				text_id="contact_form"
+							/>
+				</div>
+				<div class="table_wrap">
+					<h2><cms:text constant="table_title"/></h2>
+					<table align="center">
+							<tr>
+								<td><cms:text constant="table_cell1"/></td>
+								<td><cms:text constant="table_cell2"/></td>
+							</tr>
+							<tr>
+								<td><cms:text constant="table_cell3"/></td>
+								<td><cms:text constant="table_cell4"/></td>
+							</tr>
+					</table>
+					<h3><cms:text constant="table_sub_title"/></h3>
+					<a href="#" class="btn"><cms:text constant="btn_learn"/></a>
+				</div>
+				<cms:module
+						name="articles"
+						action="show"
+						text_id="header_article"
+						template="parts/article_noHeading.xml"
+						/>
+
+			</header>
+			<!-- Benefits Section -->
+			<div class="wrap benefits">
+				<cms:module
+						name="articles"
+						action="show"
+						text_id="benefits_article"
+						template="parts/article_noHeading.xml"
+						/>
+
+			</div>
+			<!-- Offers Section -->
+			<div class="wrap offer1">
+				<a href="#" class="btn"><cms:text constant="offer1_btn"/></a>
+				<cms:module
+						name="articles"
+						action="show"
+						text_id="offer_300"
+						template="parts/article.xml"
+						/>
+
+			</div>
+			<div class="wrap offer2">
+				<a href="#" class="btn"><cms:text constant="offer2_btn"/></a>
+				<cms:module
+						name="articles"
+						action="show"
+						text_id="offer_welcome"
+						template="parts/article_noHeading.xml"
+						/>
+
+			</div>
+			<div class="wrap offer3">
+				<a href="#" class="btn"><cms:text constant="offer3_btn"/></a>
+				<cms:module
+						name="articles"
+						action="show"
+						text_id="offer_200"
+						template="parts/article_noHeading.xml"
+						/>
+
+			</div>
+			<div class="wrap offer4">
+				<a href="#" class="btn"><cms:text constant="offer4_btn"/></a>
+				<cms:module
+						name="articles"
+						action="show"
+						text_id="offer_400"
+						template="parts/article_noHeading.xml"
+						/>
+
+			</div>
+			<!-- payments Section -->
+			<div class="wrap payments">
+				<cms:module
+						name="articles"
+						action="show"
+						text_id="payments_article"
+						template="parts/article.xml"
+						/>
+				<a href="#" class="btn"><cms:text constant="payment_btn"/></a>
+				<h2><cms:text constant="deposit_title"/></h2>
+				<div class="deposit">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="deposit">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<!-- Policy Section -->
+			<div class="wrap policy">
+				<cms:module
+						name="articles"
+						action="show"
+						text_id="policy_article"
+						template="parts/article_noHeading.xml"
+						/>
+			</div>
+			<!-- Bottom part of the site -->
+			<footer>
+				<span><cms:text constant="copyright"/></span>
+			</footer>
 		</body>
 	</html>
 </document>
