@@ -1,0 +1,397 @@
+/**
+ * Main Style Sheet
+ * Site Name
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:
+ */
+
+ /*
+	Generic
+ */
+ div.wrap {
+ 	display: block;
+ 	padding:40px calc((100vw - 1200px) / 2);
+ 	position: relative;
+ }
+
+ a.btn {
+ 	display: inline-block;
+ 	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right:25px;
+ 	background: linear-gradient(0deg, rgba(0, 104, 56, 1) 0%, rgba(0, 147, 69, 1) 50%,rgba(41, 180, 115, 1) 100%);
+ 	box-shadow : 1px 1px 2px rgba(0, 0, 0, 0.3);
+ 	text-shadow:1px 1px 2px rgba(0, 0, 0, 0.3);
+ 	color:white;
+	font-size: 1.3em;
+	font-weight: 700;
+	border:none;
+	border-radius: 8px;
+	text-decoration: none;
+	cursor: pointer;
+	transition:all 0.3s;
+ }
+  a.btn:hover {
+	background: linear-gradient(0deg, rgba(41, 180, 115, 1) 0%, rgba(0, 147, 69, 1) 50%,rgba(0, 104, 56, 1) 100%);
+  }
+
+ h2 {
+ 	font-size: 2em;
+ }
+
+ p {
+ 	font-size: 1.2em;
+ }
+
+ /*
+	Benefits Section
+ */
+
+ div.wrap.benefits {
+ 	text-align: center;
+ 	background-image: url(../images/benefits/texture-witewall.png);
+ 	background-repeat:repeat;
+ 	background-position: center center;
+ 	height: auto;
+ 	z-index: 1;
+ }
+
+div.wrap.benefits div.article {
+	display: block;
+}
+
+div.wrap.benefits div.article ul {
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+}
+
+div.wrap.benefits div.article ul li {
+	display:inline-block;
+	vertical-align: top;
+	padding-top: 130px;
+	width: 300px;
+	color:#006737;
+	font-size: 1.2em;
+	font-weight: 700;
+	position: relative;
+}
+
+div.wrap.benefits div.article ul li p {
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+div.wrap.benefits div.article ul li:before {
+	content: "";
+	position: absolute;
+	top:0px;
+	left: 50%;
+  	margin-left: -75px;
+	background-image: url(../images/benefits/sprite-benefits-icons.svg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 750px 150px;
+	height: 150px;
+	width: 150px;
+}
+
+div.wrap.benefits div.article ul li:nth-of-type(2):before {
+	background-position: -150px 0px;
+}
+
+div.wrap.benefits div.article ul li:nth-of-type(3):before {
+	background-position: -300px 0px;
+}
+
+div.wrap.benefits div.article ul li:nth-of-type(4):before {
+	background-position: -450px 0px;
+}
+
+div.wrap.benefits div.article ul li:nth-of-type(5):before {
+	background-position: -600px 0px;
+}
+
+/*
+	Offers Sections
+*/
+
+div.wrap.offer1 {
+	text-align: left;
+	background-image:url(../images/Offers/no-deposit-bonus.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+
+}
+
+div.wrap.offer1 a.btn {
+	margin-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+div.wrap.offer1 article {
+	display:block;
+	padding-left: 20px;
+	width: 50%;
+	position: relative;
+}
+
+div.wrap.offer1 article p {
+	display: block;
+
+}
+
+div.wrap.offer2 {
+	text-align: left;
+	background-image:url(../images/Offers/welcome-bonus.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-attachment: fixed;
+}
+
+div.wrap.offer2 a.btn {
+	margin-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+div.wrap.offer2 div.article {
+	display:block;
+	padding-left: 20px;
+	width: 50%;
+	position: relative;
+}
+
+div.wrap.offer2 div.article p {
+	display: block;
+
+}
+
+div.wrap.offer3 {
+	text-align: left;
+	background-image:url(../images/Offers/200-bonus.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+
+}
+
+div.wrap.offer3 a.btn {
+	margin-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+div.wrap.offer3 div.article {
+	display:block;
+	padding-left: 20px;
+	width: 50%;
+	position: relative;
+}
+
+div.wrap.offer3 div.article p {
+	display: block;
+
+}
+
+div.wrap.offer3 div.article ul {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 20px;
+}
+
+div.wrap.offer4 {
+	text-align: left;
+	background-image:url(../images/Offers/400-bonus.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+
+}
+
+div.wrap.offer4 a.btn {
+	margin-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+
+div.wrap.offer4 div.article {
+	display:block;
+	padding-left: 20px;
+	width: 50%;
+	position: relative;
+}
+
+div.wrap.offer4 div.article p {
+	display: block;
+
+}
+
+div.wrap.offer4 div.article ul {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 20px;
+}
+
+/*
+	Payments Section
+*/
+
+div.wrap.payments {
+	text-align: center;
+	background-image: url(../images/payments/texture-greyzz.png);
+	background-repeat: repeat;
+	background-position: center center;
+
+}
+
+div.wrap.payments article {
+	display: block;
+}
+
+div.wrap.payments article h2 {
+	display: block;
+	font-weight: 400;
+}
+
+div.wrap.payments article p:last-of-type {
+	font-size: 1em;
+}
+
+div.wrap.payments a.btn {
+	font-size: 1.5em;
+}
+
+div.wrap.payments > h2 {
+	display: block;
+	font-weight: 400;
+}
+
+div.wrap.payments div.deposit {
+	display: block;
+	text-align: center;
+}
+
+div.wrap.payments div.deposit span {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 50px;
+	background-image: url(../images/payments/logos-sprite.svg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 1000px 100px;
+	width: 100px;
+	height: 100px;
+}
+
+
+div.wrap.payments div.deposit:first-of-type span:nth-of-type(2) {
+	background-position: -100px 0px;
+}
+
+div.wrap.payments div.deposit:first-of-type span:nth-of-type(3) {
+	background-position: -200px 0px;
+}
+
+div.wrap.payments div.deposit:first-of-type span:nth-of-type(4) {
+	background-position: -300px 0px;
+}
+
+div.wrap.payments div.deposit:first-of-type span:nth-of-type(5) {
+	background-position: -400px 0px;
+}
+
+div.wrap.payments div.deposit:last-of-type span:nth-of-type(1) {
+	background-position: -500px 0px;
+}
+
+div.wrap.payments div.deposit:last-of-type span:nth-of-type(2) {
+	background-position: -600px 0px;
+}
+
+div.wrap.payments div.deposit:last-of-type span:nth-of-type(3) {
+	background-position: -700px 0px;
+}
+
+div.wrap.payments div.deposit:last-of-type span:nth-of-type(4) {
+	background-position: -800px 0px;
+}
+
+div.wrap.payments div.deposit:last-of-type span:nth-of-type(5) {
+	background-position: -900px 0px;
+}
+
+/*
+	Policy Section
+*/
+
+div.wrap.policy {
+	text-align: center;
+	background-image: url(../images/footer/texture-squared-metal.png);
+	background-repeat: repeat;
+	background-position: center center;
+}
+
+div.wrap.policy div.article {
+	display: block;
+	padding-top: 126px;
+	background-image: url(../images/header/logo.svg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size:180px 126px;
+}
+
+div.wrap.policy div.article p {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	font-size: 1em;
+}
+
+/*
+	Footer Section
+*/
+
+footer {
+	display: block;
+	text-align: center;
+	background-color: black;
+	padding: 40px calc((100vw - 1200px) / 2);
+
+}
+
+footer span {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-image: url(../images/footer/way2cu-color.svg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px 46px;
+	width: 280px;
+	text-align: left;
+	color:white;
+}
+
+footer span a {
+	padding-left: 5px;
+	color:#449bb5;
+}

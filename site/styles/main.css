@@ -5,8 +5,11 @@
  * Copyright (c) 2015. by Way2CU, http://way2cu.com
  * Authors:
  */
-
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700,100);
+@import url(http://fonts.googleapis.com/css?family=Roboto:700,400);
 body {
+	font-family: 'Roboto', sans-serif;
 	background-color: white;
-	color: black;
+	color: #2b3d4f;
+
 }
