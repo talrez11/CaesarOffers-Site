@@ -13,7 +13,7 @@
 		<constant name="form_title">REGISTER NOW</constant>
 		<constant name="send">NEXT STEP</constant>
 		<constant name="table_title">Best Offers in Forex</constant>
-		<constant name="table_sub_title">Plus FREE VPS <![CDATA[&]]> $5 EA programming</constant>
+		<constant name="table_sub_title"><![CDATA[Plus FREE VPS & $5 EA programming]]></constant>
 		<constant name="table_cell1">NDB</constant>
 		<constant name="table_cell2">100%</constant>
 		<constant name="table_cell3">200%</constant>
