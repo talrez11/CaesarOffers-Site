@@ -113,6 +113,7 @@ header form div.controls button {
 	background-position: 150px center,center center;
 	background-size: 12px 20px ,100%;
 	color:white;
+	border-radius: 8px;
 	font-size: 1.3em;
 	font-weight: 700;
 	cursor: pointer;
@@ -140,6 +141,8 @@ header div.table_wrap h2{
 
 header table {
 	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 	border-spacing: 0px;
 	width: 300px;
@@ -219,7 +222,7 @@ header div.article {
 header div.article:before {
 	content: "";
 	position: absolute;
-	top: -100px;
+	top: -80px;
 	left: 700px;
 	background-image: url(../images/header/thinking-dude.png);
 	background-repeat: no-repeat;
