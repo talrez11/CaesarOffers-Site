@@ -30,7 +30,7 @@
 				</div>
 				<div class="table_wrap">
 					<h2><cms:text constant="table_title"/></h2>
-					<table align="center">
+					<table>
 							<tr>
 								<td><cms:text constant="table_cell1"/></td>
 								<td><cms:text constant="table_cell2"/></td>
