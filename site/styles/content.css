@@ -121,6 +121,8 @@ div.wrap.benefits div.article ul li:nth-of-type(5):before {
 
 div.wrap.offer1 {
 	text-align: left;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	background-image:url(../images/Offers/no-deposit-bonus.jpg);
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -151,6 +153,8 @@ div.wrap.offer1 article p {
 
 div.wrap.offer2 {
 	text-align: left;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	background-image:url(../images/Offers/welcome-bonus.jpg);
 	background-repeat: no-repeat;
 	background-position:center center;
@@ -180,6 +184,8 @@ div.wrap.offer2 div.article p {
 
 div.wrap.offer3 {
 	text-align: left;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	background-image:url(../images/Offers/200-bonus.jpg);
 	background-repeat: no-repeat;
 	background-position: right center;
@@ -216,6 +222,8 @@ div.wrap.offer3 div.article ul {
 
 div.wrap.offer4 {
 	text-align: left;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	background-image:url(../images/Offers/400-bonus.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
