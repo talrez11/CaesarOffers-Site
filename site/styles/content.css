@@ -153,8 +153,8 @@ div.wrap.offer1 article p {
 
 div.wrap.offer2 {
 	text-align: left;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 150px;
+	padding-bottom: 150px;
 	background-image:url(../images/Offers/welcome-bonus.jpg);
 	background-repeat: no-repeat;
 	background-position:center center;
@@ -438,12 +438,13 @@ div.wrap.offer2 {
 }
 
 div.wrap.offer3 {
+	background-position: -400px center;
 	background-attachment: inherit;
 }
 
 div.wrap.offer4 {
+  background-position: -540px center;
   background-attachment: inherit;
-  background-position: right;
 }
 
 }

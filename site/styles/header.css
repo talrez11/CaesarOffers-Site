@@ -137,6 +137,7 @@ header div.table_wrap {
 header div.table_wrap h2{
 	display: block;
 	color:#6b2f1d;
+	text-transform: uppercase;
 }
 
 header table {
