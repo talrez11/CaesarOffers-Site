@@ -49,6 +49,16 @@ Site.is_mobile = function() {
  * Function called when document and images have been completely loaded.
  */
 Site.on_load = function() {
+
+	function fading(){
+		var offerHeading = $('div.table_wrap h2');
+		offerHeading
+			.fadeOut(500)
+			.fadeIn(500);
+	}
+
+	setInterval(fading, 1000);
+
 };
 
 
