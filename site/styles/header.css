@@ -119,6 +119,7 @@ header form div.controls button {
 	cursor: pointer;
 }
 
+
 header form div.controls button:hover {
 	background:url(../images/header/white-arrow-form.svg), linear-gradient(0deg, rgba(41, 180, 115, 1) 0%, rgba(0, 147, 69, 1) 50%,rgba(0, 104, 56, 1) 100%);
 	background-repeat: no-repeat,no-repeat;
