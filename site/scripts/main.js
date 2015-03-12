@@ -50,7 +50,7 @@ Site.is_mobile = function() {
  */
 Site.on_load = function() {
 
-	function fading(){
+	function fading() {
 		var offerHeading = $('div.table_wrap h2');
 		offerHeading
 			.fadeOut(500)
