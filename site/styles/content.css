@@ -9,6 +9,11 @@
  /*
 	Generic
  */
+
+ div.wrap.white {
+ 	background-color: white;
+ }
+
  div.wrap {
  	display: block;
  	padding:40px calc((100vw - 1200px) / 2);
@@ -94,7 +99,7 @@ div.wrap.benefits div.article ul li:before {
 	background-image: url(../images/benefits/sprite-benefits-icons.svg);
 	background-repeat: no-repeat;
 	background-position: 0px 0px;
-	background-size: 750px 150px;
+	background-size: 900px 150px;
 	height: 150px;
 	width: 150px;
 }
@@ -217,6 +222,84 @@ div.wrap.offer3 div.article ul {
 	margin: 0px;
 	padding: 0px;
 	padding-left: 20px;
+}
+
+
+/*
+*** Table wrap
+*/
+
+div.wrap.white div.article > h2 {
+	display: block;
+	text-align: center;
+	margin: 0px auto;
+	padding: 30px 0px;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+div.wrap.white div.article table tr:nth-of-type(even) {
+	background-color: #ebeff0;
+}
+
+div.wrap.white div.article table tr:nth-of-type(odd) {
+	background-color: white;
+}
+
+div.wrap.white div.article table tr td {
+	border: 1px solid #bcc2c6;
+	text-align: center;
+	padding: 30px 10px;
+}
+
+div.wrap.white > div.article table tr td {
+	width: 130px;
+}
+
+div.wrap.white div.article table tr:nth-of-type(1) th {
+	background-color:#006838;
+	color: white;
+	padding: 20px 10px;
+	font-size: 1.2rem;
+	border: 1px solid #bcc2c6;
+}
+
+div.wrap.white > div.article table tr td.x,
+div.wrap.white > div.article table tr td.v {
+	background-image: url(../images/tableiconssprite.svg);
+	background-repeat: no-repeat;
+	background-position: 20px -14px;
+	background-size: auto 110px;
+}
+
+div.wrap.white > div.article:first-of-type table tr td.v {
+	background-position: -90px -15px;
+}
+
+div.wrap.white div.article table tr:nth-of-type(even) {
+	background-color: #ebeff0;
+}
+
+div.wrap.white div.article table tr:nth-of-type(odd) {
+	background-color: white;
+}
+
+div.wrap.white div.article table tr td {
+	border: 1px solid #bcc2c6;
+	width: 130px;
+	text-align: center;
+	padding: 30px 10px;
+}
+
+div.wrap.white div.article table tr:nth-of-type(1) th {
+	background-color:#006838;
+	color: white;
+	padding: 20px 10px;
+	font-size: 1.2rem;
+	border: 1px solid #bcc2c6;
 }
 
 div.wrap.offer4 {
@@ -371,8 +454,8 @@ div.wrap.policy div.article p {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 900px;
-	font-size: 1em;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 /*
@@ -383,68 +466,94 @@ footer {
 	display: block;
 	text-align: center;
 	background-color: black;
-	padding: 40px calc((100vw - 1200px) / 2);
+	padding: 30px calc((100vw - 1200px) / 2);
 
 }
 
-footer span {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 50px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+footer div.copyright {
 	background-image: url(../images/footer/way2cu-color.svg);
 	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 40px 46px;
-	width: 280px;
+	background-position: 10px center;
+	background-size: auto 50px;
+	width: 310px;
+	padding: 10px 0px;
+	padding-left: 70px;
 	text-align: left;
-	color:white;
+	color: white;
+	direction: ltr;
+	display: block;
+	margin: 0px auto;
 }
 
-footer span a {
-	padding-left: 5px;
-	color:#449bb5;
+footer  div.copyright a {
+	color: white;
+	padding: 0px 5px;
+	text-align: left;
+	transition: 0.5s all;
+	text-decoration: underline;
+}
+
+footer  div.copyright a:hover {
+	color: #5bc2d8;
+}
+
+footer  div.copyright span {
+	display: block;
 }
 
 /*
 	Tablet Version
 */
-@media all and (max-width: 1024px) and (min-width: 768px){
-div.wrap {
-	display: block;
-	width: auto;
-}
-header div.table_wrap{
-	display: inline-block;
-	vertical-align: top;
-	text-align: center;
-	width: calc(40% - 20px);
-	padding-right: 20px;
-}
+@media all and (max-width: 1200px) and (min-width: 768px){
+	div.wrap {
+		display: block;
+		width: auto;
+	}
+	header div.table_wrap{
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+		width: calc(40% - 20px);
+		padding-right: 20px;
+	}
 
-header div.article:before{
-	top: -65px;
-	left: 550px;
-}
+	header div.article:before{
+		top: -65px;
+		left: 510px;
+		width: 350px;
+		background-size: 100% auto;
+	}
 
-div.wrap.offer1 {
-	background-attachment: inherit;
-}
+	header table:before {
+		left: -105px;
+		background-size: 90px 150px;
+		width: 90px;
+		height: 150px;
+	}
 
-div.wrap.offer2 {
-	background-attachment: inherit;
-}
+	header table:after {
+	  right: -105px;
+	  background-size: 90px 150px;
+	  width: 90px;
+	  height: 150px;
+	}
 
-div.wrap.offer3 {
-	background-position: -400px center;
-	background-attachment: inherit;
-}
+	div.wrap.offer1 {
+		background-attachment: inherit;
+	}
 
-div.wrap.offer4 {
-  background-position: -540px center;
-  background-attachment: inherit;
-}
+	div.wrap.offer2 {
+		background-attachment: inherit;
+	}
+
+	div.wrap.offer3 {
+		background-attachment: inherit;
+
+	}
+
+	div.wrap.offer4 {
+	  background-position: -540px center;
+	  background-attachment: inherit;
+	}
 
 }
