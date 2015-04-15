@@ -15,11 +15,11 @@
 					<a href="#"></a>
 
 					<nav>
-						<a href="#"><cms:text constant="menu_trading_platform"/></a>
-						<a href="#"><cms:text constant="menu_list"/></a>
-						<a href="#"><cms:text constant="menu_education"/></a>
-						<a href="#"><cms:text constant="menu_partners"/></a>
-						<a href="#"><cms:text constant="menu_help"/></a>
+						<a href="http://www.caesartrade.com/mt4"><cms:text constant="menu_trading_platform"/></a>
+						<a href="http://www.caesartrade.com/products-pricing"><cms:text constant="menu_list"/></a>
+						<a href="http://www.caesartrade.com/education"><cms:text constant="menu_education"/></a>
+						<a href="http://www.caesartrade.com/partners"><cms:text constant="menu_partners"/></a>
+						<a href="http://www.caesartrade.com/support"><cms:text constant="menu_help"/></a>
 					</nav>
 
 					<h1><cms:text constant="header"/></h1>
