@@ -175,7 +175,7 @@
 				</cms:desktop>
 				<cms:mobile>
 					<h2><cms:text constant="reference_table"/></h2>
-					<a href="/site/images/table.png" class="btn">Click to View img table</a>
+					<a href="/site/images/table.png" class="btn"><cms:text constant="click_table"/></a>
 				</cms:mobile>
 			</div>
 			<!-- payments Section -->
