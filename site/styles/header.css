@@ -1,5 +1,5 @@
 /**
- * Main Style Sheet
+ * Header Style Sheet
  * Caesar Trade Offers
  *
  * Copyright (c) 2015. by Way2CU, http://way2cu.com
@@ -15,7 +15,7 @@
  	min-height:900px;
  }
 
-  header > a {
+header > a {
   	display: inline-block;
   	vertical-align: middle;
   	padding-left: 20px;
@@ -214,6 +214,13 @@ header table tr:last-of-type td:nth-of-type(2) {
 	border-right: 2px solid #006737;
 }
 
+header table + h3 {
+	display: block;
+	width: 80%;
+	margin: 0px auto;
+	padding: 20px 0px;
+}
+
 header div.article {
 	display:block;
 	padding-left: 20px;
@@ -239,6 +246,3 @@ header div.article p {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
-
-
-
