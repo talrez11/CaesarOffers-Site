@@ -1,0 +1,290 @@
+/**
+ * Header Style Sheet
+ * Caesar Trade Offers
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic  , Khalid Sawalhi
+ */
+
+
+.mobile_title{
+	background: none;
+	box-shadow: none;
+	position: relative;
+}
+
+.mobile_title a.menu {
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 0px;
+ 	height: 50px;
+ 	width: 50px;
+ 	margin-top: -25px;
+ 	background-image: url(../images/icon-menu.svg);
+ 	background-repeat: no-repeat;
+ 	background-position: left center;
+ 	background-size: auto 30px;
+ 	transition: 0.3s all;
+}
+
+.mobile_title.menu_visible a.menu {
+  background-position: -30px center;
+}
+
+.mobile_title  a.logo {
+	display: block;
+	margin: 0px auto;
+	width: 160px;
+	height: 60px;
+	text-align: center;
+}
+
+.mobile_title  a.logo img {
+ 	display: block;
+ 	width: 160px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding-bottom: 5px;
+ 	padding-top: 5px;
+}
+
+.mobile_menu {
+ 	background-color: #DFEBF3;
+ 	box-shadow: 0px 0px 10px black;
+}
+
+.mobile_menu a {
+ 	text-align: right;
+ 	color: #7e8b8c;
+ 	border-bottom: 1px solid #7e8b8c;
+ 	padding-bottom: 1em;
+ 	padding-top: 1em;
+ 	margin: 0px auto;
+ 	width: 80%;
+}
+
+.mobile_menu a:active {
+ 	background-color: orange;
+ 	color: white;
+}
+
+header {
+	background-image: url(../images/header/mobile-header-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% auto;
+}
+
+header > a {
+  	display: inline-block;
+  	vertical-align: middle;
+  	padding-left: 20px;
+  	text-align: left;
+  	background-image: url(../images/header/logo.svg);
+  	background-repeat: no-repeat;
+  	background-position: center center;
+  	background-size:150px 105px;
+  	width: 160px;
+  	height: 105px;
+ }
+
+ header nav {
+ 	display: inline-block;
+ 	vertical-align: middle;
+ 	text-align: right;
+ }
+
+ header nav a {
+ 	display: inline-block;
+ 	vertical-align: middle;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+ 	color:black;
+ 	text-decoration: none;
+ }
+
+ header h1 {
+ 	display: block;
+ 	text-align: center;
+ 	font-family: 'Roboto Slab', serif;
+ 	color: #6b2f1d;
+ 	font-size: 1.8em;
+ 	font-weight: bold;
+ 	margin: 0px;
+ 	padding-top: 30px;
+ 	padding-bottom: 20px;
+ }
+
+ header div.form_wrap {
+ 	display: block;
+ 	padding-left: 15px;
+ 	padding-right: 15px;
+ }
+
+ header div.form_wrap h2 {
+ 	display: block;
+ 	text-align: center;
+ 	font-family: 'Roboto Slab', serif;
+ 	color:#006737;
+}
+
+ header form {
+ 	display: block;
+}
+
+ header form label {
+ 	display: block;
+ 	padding-top: 15px;
+}
+
+ header form label:first-of-type{
+ 	padding-top: 0px;
+}
+
+header form label input {
+	display: block;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+header form div.controls {
+	display: block;
+	text-align: left;
+	padding-top: 15px;
+}
+
+header form div.controls button {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 45px;
+	border:none;
+	box-shadow : 1px 1px 2px rgba(0, 0, 0, 0.3);
+	background :url(../images/header/white-arrow-form.svg), linear-gradient(0deg, rgba(0, 104, 56, 1) 0%, rgba(0, 147, 69, 1) 50%,rgba(41, 180, 115, 1) 100%);
+	background-repeat: no-repeat,no-repeat;
+	background-position: 150px center,center center;
+	background-size: 12px 20px ,100%;
+	color:white;
+	border-radius: 8px;
+	font-size: 1.3em;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+
+header form div.controls button:hover {
+	background:url(../images/header/white-arrow-form.svg), linear-gradient(0deg, rgba(41, 180, 115, 1) 0%, rgba(0, 147, 69, 1) 50%,rgba(0, 104, 56, 1) 100%);
+	background-repeat: no-repeat,no-repeat;
+	background-position: 150px center,center center;
+	background-size: 12px 20px ,100%;
+}
+
+header div.table_wrap {
+	display: block;
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+header table {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-spacing: 0px;
+	width: 200px;
+	padding: 0px;
+	position: relative;
+}
+
+header table:before {
+	content: '';
+	position: absolute;
+	top: -50px;
+	left: -56px;
+	background-image: url(../images/header/wreath-left.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 50px 100px;
+	width: 50px;
+	height: 100px;
+}
+
+header table:after {
+	content: '';
+	position: absolute;
+	top: -50px;
+	right: -56px;
+	background-image: url(../images/header/wreath-left.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 50px 100px;
+	width: 50px;
+	height: 100px;
+	 -ms-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+header table td {
+	width: 90px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: 700;
+	font-size: 1.6em;
+	color: #009244;
+}
+
+header table tr:first-of-type td:nth-of-type(1) {
+	border-top: 2px solid #006737;
+	border-left: 2px solid #006737;
+	border-right: 2px solid #006737;
+}
+
+header table tr:first-of-type td:nth-of-type(2) {
+	border-top: 2px solid #006737;
+	border-right: 2px solid #006737;
+}
+
+header table tr:last-of-type td:nth-of-type(1) {
+	border-top: 2px solid #006737;
+	border-bottom: 2px solid #006737;
+	border-right: 2px solid #006737;
+	border-left: 2px solid #006737;
+}
+
+header table tr:last-of-type td:nth-of-type(2) {
+	border-top: 2px solid #006737;
+	border-bottom: 2px solid #006737;
+	border-right: 2px solid #006737;
+}
+
+header table + h3 {
+	display: block;
+	width: 80%;
+	margin: 0px auto;
+	padding: 20px 0px;
+}
+
+header div.article {
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+	background-image: url(../images/header/thinking-dude.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: 80% auto;
+	padding-bottom: 240px;
+}
+
+header div.article p {
+	display: block;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
