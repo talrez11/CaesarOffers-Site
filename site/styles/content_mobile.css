@@ -1,0 +1,407 @@
+/**
+ * Content Style Sheet
+ * Caesar Trade Offers
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic  , Khalid Sawalhi
+*/
+
+
+ div.wrap.benefits {
+ 	text-align: center;
+ 	background-image: url(../images/benefits/texture-witewall.png);
+ 	background-repeat:repeat;
+ 	background-position: center center;
+ 	height: auto;
+ 	z-index: 1;
+ }
+
+div.wrap.benefits div.article {
+	display: block;
+}
+
+div.wrap.benefits div.article ul {
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+}
+
+div.wrap.benefits div.article ul li {
+	display:inline-block;
+	vertical-align: top;
+	padding-top: 130px;
+	width: 40%;
+	color:#006737;
+	font-size: 1.2em;
+	font-weight: 700;
+	position: relative;
+}
+
+div.wrap.benefits div.article ul li p {
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+div.wrap.benefits div.article ul li:before {
+	content: "";
+	position: absolute;
+	top:0px;
+	left: 50%;
+  	margin-left: -75px;
+	background-image: url(../images/benefits/sprite-benefits-icons.svg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 900px 150px;
+	height: 150px;
+	width: 150px;
+}
+
+div.wrap.benefits div.article ul li:nth-of-type(2):before {
+	background-position: -150px 0px;
+}
+
+div.wrap.benefits div.article ul li:nth-of-type(3):before {
+	background-position: -300px 0px;
+}
+
+div.wrap.benefits div.article ul li:nth-of-type(4):before {
+	background-position: -450px 0px;
+}
+
+div.wrap.benefits div.article ul li:nth-of-type(5):before {
+	background-position: -600px 0px;
+}
+ a.btn {
+ 	display: inline-block;
+ 	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right:25px;
+ 	background: linear-gradient(0deg, rgba(0, 104, 56, 1) 0%, rgba(0, 147, 69, 1) 50%,rgba(41, 180, 115, 1) 100%);
+ 	box-shadow : 1px 1px 2px rgba(0, 0, 0, 0.3);
+ 	text-shadow:1px 1px 2px rgba(0, 0, 0, 0.3);
+ 	color:white;
+	font-size: 1.2em;
+	font-weight: 700;
+	border:none;
+	border-radius: 8px;
+	text-decoration: none;
+	cursor: pointer;
+	transition:all 0.3s;
+}
+a.btn:hover {
+	background: linear-gradient(0deg, rgba(41, 180, 115, 1) 0%, rgba(0, 147, 69, 1) 50%,rgba(0, 104, 56, 1) 100%);
+}
+
+
+div.wrap.offer1 {
+	text-align: left;
+	padding-top: 30px;
+	padding-bottom: 210px;
+	background-color: #c8dadf;
+	background-image: url(../images/Offers/mobile-no-deposit.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: 100% auto;
+}
+
+div.wrap.offer1 a.btn {
+	margin-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+div.wrap.offer1 article {
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+}
+
+div.wrap.offer1 article p {
+	display: block;
+
+}
+
+div.wrap.offer2 {
+	text-align: left;
+	padding-top: 30px;
+	padding-bottom: 250px;
+	background-image: url(../images/Offers/mobile-welcome-bonus.jpg);
+	background-color: #cdd0dc;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 100% auto;
+}
+
+div.wrap.offer2 a.btn {
+	margin-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+div.wrap.offer2 div.article {
+	display:block;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+}
+
+div.wrap.offer2 div.article p {
+	display: block;
+
+}
+
+div.wrap.offer3 {
+	text-align: left;
+	padding-top: 40px;
+	padding-bottom: 210px;
+	background-image: url(../images/Offers/mobile-200-bonus.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: 100% auto;
+	background-color: #daecf0;
+
+}
+
+div.wrap.offer3 a.btn {
+	margin-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+div.wrap.offer3 div.article {
+	display:block;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+}
+
+div.wrap.offer3 div.article p {
+	display: block;
+
+}
+
+div.wrap.offer3 div.article ul {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 20px;
+}
+
+
+div.wrap.offer4 {
+	text-align: left;
+	padding-top: 30px;
+	padding-bottom: 230px;
+	background-image: url(../images/Offers/mobile-400-bonus-2.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 100% auto;
+	background-color: #f0f8ff;
+
+}
+
+div.wrap.offer4 a.btn {
+	margin-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 45px;
+	padding-right: 45px;
+
+}
+
+
+div.wrap.offer4 div.article {
+	display:block;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+}
+
+div.wrap.offer4 div.article p {
+	display: block;
+
+}
+
+div.wrap.offer4 div.article ul {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 20px;
+}
+
+div.wrap.white > h2 {
+	display: block;
+	padding: 10px;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+div.wrap.white a.btn {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 63%;
+  margin: 0px auto;
+  margin-bottom: 30px;
+}
+
+div.wrap.payments {
+	text-align: center;
+	background-image: url(../images/payments/texture-greyzz.png);
+	background-repeat: repeat;
+	background-position: center center;
+
+}
+
+div.wrap.payments article {
+	display: block;
+	padding: 10px;
+}
+
+div.wrap.payments article h2 {
+	display: block;
+	font-weight: 400;
+}
+
+div.wrap.payments article p:last-of-type {
+	font-size: 1em;
+}
+
+div.wrap.payments a.btn {
+	font-size: 1.5em;
+}
+
+div.wrap.payments > h2 {
+	display: block;
+	font-weight: 400;
+}
+
+div.wrap.payments div.deposit {
+	display: block;
+	text-align: center;
+}
+
+div.wrap.payments div.deposit span {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+	margin-left: 10px;
+	background-image: url(../images/payments/logos-sprite.svg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 1000px 100px;
+	width: 100px;
+	height: 100px;
+}
+
+
+div.wrap.payments div.deposit:first-of-type span:nth-of-type(2) {
+	background-position: -100px 0px;
+}
+
+div.wrap.payments div.deposit:first-of-type span:nth-of-type(3) {
+	background-position: -200px 0px;
+}
+
+div.wrap.payments div.deposit:first-of-type span:nth-of-type(4) {
+	background-position: -300px 0px;
+}
+
+div.wrap.payments div.deposit:first-of-type span:nth-of-type(5) {
+	background-position: -400px 0px;
+}
+
+div.wrap.payments div.deposit:last-of-type span:nth-of-type(1) {
+	background-position: -500px 0px;
+}
+
+div.wrap.payments div.deposit:last-of-type span:nth-of-type(2) {
+	background-position: -600px 0px;
+}
+
+div.wrap.payments div.deposit:last-of-type span:nth-of-type(3) {
+	background-position: -700px 0px;
+}
+
+div.wrap.payments div.deposit:last-of-type span:nth-of-type(4) {
+	background-position: -800px 0px;
+}
+
+div.wrap.payments div.deposit:last-of-type span:nth-of-type(5) {
+	background-position: -900px 0px;
+}
+
+/*
+	Policy Section
+*/
+
+div.wrap.policy {
+	text-align: center;
+	background-image: url(../images/footer/texture-squared-metal.png);
+	background-repeat: repeat;
+	background-position: center center;
+}
+
+div.wrap.policy div.article {
+	display: block;
+	padding-top: 146px;
+	background-image: url(../images/header/logo.svg);
+	background-repeat: no-repeat;
+	background-position: center 15px;
+	background-size: 180px 126px;
+}
+
+div.wrap.policy div.article p {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	margin: 0px;
+}
+
+/*
+	Footer Section
+*/
+
+footer {
+	display: block;
+	text-align: center;
+	background-color: black;
+}
+
+footer div.copyright {
+	background-image: url(../images/footer/way2cu-color.svg);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	background-size: auto 50px;
+	padding: 20px 0px;
+	padding-left: 70px;
+	text-align: left;
+	color: white;
+	direction: ltr;
+	display: block;
+	margin: 0px auto;
+}
+
+footer  div.copyright a {
+	color: white;
+	padding: 0px 5px;
+	text-align: left;
+	transition: 0.5s all;
+	text-decoration: underline;
+}
+
+footer  div.copyright a:hover {
+	color: #5bc2d8;
+}
+
+footer  div.copyright span {
+	display: block;
+}
