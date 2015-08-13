@@ -11,26 +11,81 @@
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
 			<!-- Top Section of the site -->
 			<header>
-				<a href="#"></a>
-				<nav>
-					<a href="#"><cms:text constant="menu_trading_platform"/></a>
-					<a href="#"><cms:text constant="menu_list"/></a>
-					<a href="#"><cms:text constant="menu_education"/></a>
-					<a href="#"><cms:text constant="menu_partners"/></a>
-					<a href="#"><cms:text constant="menu_help"/></a>
-				</nav>
-				<h1><cms:text constant="header"/></h1>
-				<div class="form_wrap">
-					<h2><cms:text constant="form_title"/></h2>
+				<cms:desktop>
+					<a href="#"></a>
+
+					<nav>
+						<a href="http://www.caesartrade.com/mt4"><cms:text constant="menu_trading_platform"/></a>
+						<a href="http://www.caesartrade.com/products"><cms:text constant="menu_list"/></a>
+						<a href="http://www.caesartrade.com/education"><cms:text constant="menu_education"/></a>
+						<a href="http://www.caesartrade.com/partners"><cms:text constant="menu_partners"/></a>
+						<a href="http://www.caesartrade.com/support"><cms:text constant="menu_help"/></a>
+					</nav>
+
+					<h1><cms:text constant="header"/></h1>
+
+					<div class="form_wrap">
+						<h2><cms:text constant="form_title"/></h2>
+						<cms:module
+						name="contact_form"
+						action="show"
+						text_id="contact_form"
+						/>
+					</div>
+
+					<div class="table_wrap">
+						<h2><cms:text constant="table_title"/></h2>
+
+						<table>
+							<tr>
+								<td class="custom"><cms:text constant="table_cell1"/></td>
+								<td><cms:text constant="table_cell2"/></td>
+							</tr>
+							<tr>
+								<td><cms:text constant="table_cell3"/></td>
+								<td><cms:text constant="table_cell4"/></td>
+							</tr>
+						</table>
+
+						<h3><cms:text constant="table_sub_title"/></h3>
+						<a href="http://www.caesartrade.com/bonus-offers" class="btn"><cms:text constant="btn_learn"/></a>
+					</div>
+
 					<cms:module
-			 				name="contact_form"
-			 				action="show"
-			 				text_id="contact_form"
+						name="articles"
+						action="show"
+						text_id="header_article"
+						template="parts/article_noHeading.xml"
+					/>
+				</cms:desktop>
+
+				<cms:mobile>
+					<div class="mobile_title">
+						<a
+							href="url_Make()"
+							class="logo"
+							cms:eval="href"
+							>
+							<img
+								src="_BASEURL.'/site/images/header/logo.svg'"
+								alt="site_title"
+								cms:eval="src"
+								cms:constant="alt"
+								height="56"
 							/>
-				</div>
-				<div class="table_wrap">
-					<h2><cms:text constant="table_title"/></h2>
-					<table>
+						</a>
+					</div>
+					<nav id="main" class="mobile_menu">
+						<a href="http://www.caesartrade.com/mt4"><cms:text constant="menu_trading_platform"/></a>
+						<a href="http://www.caesartrade.com/products-pricing"><cms:text constant="menu_list"/></a>
+						<a href="http://www.caesartrade.com/education"><cms:text constant="menu_education"/></a>
+						<a href="http://www.caesartrade.com/partners"><cms:text constant="menu_partners"/></a>
+						<a href="http://www.caesartrade.com/"><cms:text constant="menu_help"/></a>
+					</nav>
+
+					<div class="table_wrap">
+						<h1><cms:text constant="table_title"/></h1>
+						<table>
 							<tr>
 								<td><cms:text constant="table_cell1"/></td>
 								<td><cms:text constant="table_cell2"/></td>
@@ -39,17 +94,24 @@
 								<td><cms:text constant="table_cell3"/></td>
 								<td><cms:text constant="table_cell4"/></td>
 							</tr>
-					</table>
-					<h3><cms:text constant="table_sub_title"/></h3>
-					<a href="#" class="btn"><cms:text constant="btn_learn"/></a>
-				</div>
-				<cms:module
+						</table>
+						<div class="form_wrap">
+							<h2><cms:text constant="form_title"/></h2>
+							<cms:module
+					 				name="contact_form"
+					 				action="show"
+					 				text_id="contact_form"
+									/>
+						</div>
+					</div>
+					<cms:module
 						name="articles"
 						action="show"
 						text_id="header_article"
 						template="parts/article_noHeading.xml"
 						/>
 
+				</cms:mobile>
 			</header>
 			<!-- Benefits Section -->
 			<div class="wrap benefits">
@@ -63,7 +125,7 @@
 			</div>
 			<!-- Offers Section -->
 			<div class="wrap offer1">
-				<a href="#" class="btn"><cms:text constant="offer1_btn"/></a>
+				<a href="http://www.caesartrade.com/no-deposit" class="btn"><cms:text constant="offer1_btn"/></a>
 				<cms:module
 						name="articles"
 						action="show"
@@ -73,7 +135,7 @@
 
 			</div>
 			<div class="wrap offer2">
-				<a href="#" class="btn"><cms:text constant="offer2_btn"/></a>
+				<a href="http://www.caesartrade.com/welcome-bonus" class="btn"><cms:text constant="offer2_btn"/></a>
 				<cms:module
 						name="articles"
 						action="show"
@@ -83,7 +145,7 @@
 
 			</div>
 			<div class="wrap offer3">
-				<a href="#" class="btn"><cms:text constant="offer3_btn"/></a>
+				<a href="http://www.caesartrade.com/200-percent-bonus" class="btn"><cms:text constant="offer3_btn"/></a>
 				<cms:module
 						name="articles"
 						action="show"
@@ -93,7 +155,7 @@
 
 			</div>
 			<div class="wrap offer4">
-				<a href="#" class="btn"><cms:text constant="offer4_btn"/></a>
+				<a href="http://www.caesartrade.com/400-percent-bonus" class="btn"><cms:text constant="offer4_btn"/></a>
 				<cms:module
 						name="articles"
 						action="show"
@@ -101,6 +163,20 @@
 						template="parts/article_noHeading.xml"
 						/>
 
+			</div>
+			<div class="wrap white">
+				<cms:desktop>
+					<cms:module
+							name="articles"
+							action="show"
+							text_id="table"
+							template="parts/article_noHeading.xml"
+							/>
+				</cms:desktop>
+				<cms:mobile>
+					<h2><cms:text constant="reference_table"/></h2>
+					<a href="/site/images/table.png" class="btn"><cms:text constant="click_table"/></a>
+				</cms:mobile>
 			</div>
 			<!-- payments Section -->
 			<div class="wrap payments">
@@ -110,7 +186,10 @@
 						text_id="payments_article"
 						template="parts/article.xml"
 						/>
-				<a href="#" class="btn"><cms:text constant="payment_btn"/></a>
+
+				<a href="http://www.caesartrade.com/real" class="btn">
+					<cms:text constant="register_today"/>
+				</a>
 				<h2><cms:text constant="deposit_title"/></h2>
 				<div class="deposit">
 					<span></span>
@@ -138,7 +217,13 @@
 			</div>
 			<!-- Bottom part of the site -->
 			<footer>
-				<span><cms:text constant="copyright"/></span>
+					<div class="copyright">
+						<cms:text constant="copyrights"/>
+						<a href="http://way2cu.com" target="_blank">
+							<cms:text constant="way2cu"/>
+						</a>
+						<span><cms:text constant="all_copy"/></span>
+					</div>
 			</footer>
 		</body>
 	</html>
