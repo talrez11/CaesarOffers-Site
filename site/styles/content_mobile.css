@@ -1,58 +1,11 @@
 /**
- * Main Style Sheet
- * Site Name
+ * Content Style Sheet
+ * Caesar Trade Offers
  *
  * Copyright (c) 2015. by Way2CU, http://way2cu.com
- * Authors:
- */
+ * Authors:Tal Reznic  , Khalid Sawalhi
+*/
 
- /*
-	Generic
- */
-
- div.wrap.white {
- 	background-color: white;
- }
-
- div.wrap {
- 	display: block;
- 	padding:40px calc((100vw - 1200px) / 2);
- 	position: relative;
- }
-
- a.btn {
- 	display: inline-block;
- 	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 25px;
-	padding-right:25px;
- 	background: linear-gradient(0deg, rgba(0, 104, 56, 1) 0%, rgba(0, 147, 69, 1) 50%,rgba(41, 180, 115, 1) 100%);
- 	box-shadow : 1px 1px 2px rgba(0, 0, 0, 0.3);
- 	text-shadow:1px 1px 2px rgba(0, 0, 0, 0.3);
- 	color:white;
-	font-size: 1.3em;
-	font-weight: 700;
-	border:none;
-	border-radius: 8px;
-	text-decoration: none;
-	cursor: pointer;
-	transition:all 0.3s;
- }
-  a.btn:hover {
-	background: linear-gradient(0deg, rgba(41, 180, 115, 1) 0%, rgba(0, 147, 69, 1) 50%,rgba(0, 104, 56, 1) 100%);
-  }
-
- h2 {
- 	font-size: 2em;
- }
-
- p {
- 	font-size: 1.2em;
- }
-
- /*
-	Benefits Section
- */
 
  div.wrap.benefits {
  	text-align: center;
@@ -77,7 +30,7 @@ div.wrap.benefits div.article ul li {
 	display:inline-block;
 	vertical-align: top;
 	padding-top: 130px;
-	width: 300px;
+	width: 40%;
 	color:#006737;
 	font-size: 1.2em;
 	font-weight: 700;
@@ -119,20 +72,38 @@ div.wrap.benefits div.article ul li:nth-of-type(4):before {
 div.wrap.benefits div.article ul li:nth-of-type(5):before {
 	background-position: -600px 0px;
 }
+ a.btn {
+ 	display: inline-block;
+ 	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right:25px;
+ 	background: linear-gradient(0deg, rgba(0, 104, 56, 1) 0%, rgba(0, 147, 69, 1) 50%,rgba(41, 180, 115, 1) 100%);
+ 	box-shadow : 1px 1px 2px rgba(0, 0, 0, 0.3);
+ 	text-shadow:1px 1px 2px rgba(0, 0, 0, 0.3);
+ 	color:white;
+	font-size: 1.2em;
+	font-weight: 700;
+	border:none;
+	border-radius: 8px;
+	text-decoration: none;
+	cursor: pointer;
+	transition:all 0.3s;
+}
+a.btn:hover {
+	background: linear-gradient(0deg, rgba(41, 180, 115, 1) 0%, rgba(0, 147, 69, 1) 50%,rgba(0, 104, 56, 1) 100%);
+}
 
-/*
-	Offers Sections
-*/
 
 div.wrap.offer1 {
 	text-align: left;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	background-image:url(../images/offers/no-deposit-bonus.jpg);
+	padding-top: 30px;
+	padding-bottom: 210px;
+	background-color: #c8dadf;
+	background-image: url(../images/Offers/mobile-no-deposit.jpg);
 	background-repeat: no-repeat;
-	background-position: top center;
-	background-size: cover;
-	background-attachment: fixed;
+	background-position: bottom center;
+	background-size: 100% auto;
 }
 
 div.wrap.offer1 a.btn {
@@ -144,9 +115,9 @@ div.wrap.offer1 a.btn {
 }
 
 div.wrap.offer1 article {
-	display:block;
+	display: block;
 	padding-left: 20px;
-	width: 50%;
+	padding-right: 20px;
 	position: relative;
 }
 
@@ -157,13 +128,13 @@ div.wrap.offer1 article p {
 
 div.wrap.offer2 {
 	text-align: left;
-	padding-top: 150px;
-	padding-bottom: 150px;
-	background-image:url(../images/offers/welcome-bonus.jpg);
+	padding-top: 30px;
+	padding-bottom: 250px;
+	background-image: url(../images/Offers/mobile-welcome-bonus.jpg);
+	background-color: #cdd0dc;
 	background-repeat: no-repeat;
-	background-position:center center;
-	background-size: cover;
-	background-attachment: fixed;
+	background-position: center bottom;
+	background-size: 100% auto;
 }
 
 div.wrap.offer2 a.btn {
@@ -177,7 +148,7 @@ div.wrap.offer2 a.btn {
 div.wrap.offer2 div.article {
 	display:block;
 	padding-left: 20px;
-	width: 50%;
+	padding-right: 20px;
 	position: relative;
 }
 
@@ -188,13 +159,13 @@ div.wrap.offer2 div.article p {
 
 div.wrap.offer3 {
 	text-align: left;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	background-image:url(../images/offers/200-bonus.jpg);
+	padding-top: 40px;
+	padding-bottom: 210px;
+	background-image: url(../images/Offers/mobile-200-bonus.jpg);
 	background-repeat: no-repeat;
-	background-position: right center;
-	background-size: cover;
-	background-attachment: fixed;
+	background-position: bottom center;
+	background-size: 100% auto;
+	background-color: #daecf0;
 
 }
 
@@ -209,7 +180,7 @@ div.wrap.offer3 a.btn {
 div.wrap.offer3 div.article {
 	display:block;
 	padding-left: 20px;
-	width: 50%;
+	padding-right: 20px;
 	position: relative;
 }
 
@@ -225,92 +196,15 @@ div.wrap.offer3 div.article ul {
 }
 
 
-/*
-*** Table wrap
-*/
-
-div.wrap.white div.article > h2 {
-	display: block;
-	text-align: center;
-	margin: 0px auto;
-	padding: 30px 0px;
-}
-
-table {
-  border-spacing: 0;
-  border-collapse: collapse;
-}
-
-div.wrap.white div.article table tr:nth-of-type(even) {
-	background-color: #ebeff0;
-}
-
-div.wrap.white div.article table tr:nth-of-type(odd) {
-	background-color: white;
-}
-
-div.wrap.white div.article table tr td {
-	border: 1px solid #bcc2c6;
-	text-align: center;
-	padding: 30px 10px;
-}
-
-div.wrap.white > div.article table tr td {
-	width: 130px;
-}
-
-div.wrap.white div.article table tr:nth-of-type(1) th {
-	background-color:#006838;
-	color: white;
-	padding: 20px 10px;
-	font-size: 1.2rem;
-	border: 1px solid #bcc2c6;
-}
-
-div.wrap.white > div.article table tr td.x,
-div.wrap.white > div.article table tr td.v {
-	background-image: url(../images/tableiconssprite.svg);
-	background-repeat: no-repeat;
-	background-position: 20px -14px;
-	background-size: auto 110px;
-}
-
-div.wrap.white > div.article:first-of-type table tr td.v {
-	background-position: -90px -15px;
-}
-
-div.wrap.white div.article table tr:nth-of-type(even) {
-	background-color: #ebeff0;
-}
-
-div.wrap.white div.article table tr:nth-of-type(odd) {
-	background-color: white;
-}
-
-div.wrap.white div.article table tr td {
-	border: 1px solid #bcc2c6;
-	width: 130px;
-	text-align: center;
-	padding: 30px 10px;
-}
-
-div.wrap.white div.article table tr:nth-of-type(1) th {
-	background-color:#006838;
-	color: white;
-	padding: 20px 10px;
-	font-size: 1.2rem;
-	border: 1px solid #bcc2c6;
-}
-
 div.wrap.offer4 {
 	text-align: left;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	background-image:url(../images/offers/400-bonus.jpg);
+	padding-top: 30px;
+	padding-bottom: 230px;
+	background-image: url(../images/Offers/mobile-400-bonus-2.jpg);
 	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
+	background-position: center bottom;
+	background-size: 100% auto;
+	background-color: #f0f8ff;
 
 }
 
@@ -327,7 +221,7 @@ div.wrap.offer4 a.btn {
 div.wrap.offer4 div.article {
 	display:block;
 	padding-left: 20px;
-	width: 50%;
+	padding-right: 20px;
 	position: relative;
 }
 
@@ -342,9 +236,21 @@ div.wrap.offer4 div.article ul {
 	padding-left: 20px;
 }
 
-/*
-	Payments Section
-*/
+div.wrap.white > h2 {
+	display: block;
+	padding: 10px;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+div.wrap.white a.btn {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 63%;
+  margin: 0px auto;
+  margin-bottom: 30px;
+}
 
 div.wrap.payments {
 	text-align: center;
@@ -356,6 +262,7 @@ div.wrap.payments {
 
 div.wrap.payments article {
 	display: block;
+	padding: 10px;
 }
 
 div.wrap.payments article h2 {
@@ -384,7 +291,8 @@ div.wrap.payments div.deposit {
 div.wrap.payments div.deposit span {
 	display: inline-block;
 	vertical-align: top;
-	margin-right: 50px;
+	margin-right: 10px;
+	margin-left: 10px;
 	background-image: url(../images/payments/logos-sprite.svg);
 	background-repeat: no-repeat;
 	background-position: 0px 0px;
@@ -443,19 +351,19 @@ div.wrap.policy {
 
 div.wrap.policy div.article {
 	display: block;
-	padding-top: 126px;
+	padding-top: 146px;
 	background-image: url(../images/header/logo.svg);
 	background-repeat: no-repeat;
-	background-position: center top;
-	background-size:180px 126px;
+	background-position: center 15px;
+	background-size: 180px 126px;
 }
 
 div.wrap.policy div.article p {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding: 20px;
+	margin: 0px;
 }
 
 /*
@@ -466,8 +374,6 @@ footer {
 	display: block;
 	text-align: center;
 	background-color: black;
-	padding: 30px calc((100vw - 1200px) / 2);
-
 }
 
 footer div.copyright {
@@ -475,8 +381,7 @@ footer div.copyright {
 	background-repeat: no-repeat;
 	background-position: 10px center;
 	background-size: auto 50px;
-	width: 310px;
-	padding: 10px 0px;
+	padding: 20px 0px;
 	padding-left: 70px;
 	text-align: left;
 	color: white;
@@ -499,61 +404,4 @@ footer  div.copyright a:hover {
 
 footer  div.copyright span {
 	display: block;
-}
-
-/*
-	Tablet Version
-*/
-@media all and (max-width: 1200px) and (min-width: 768px){
-	div.wrap {
-		display: block;
-		width: auto;
-	}
-	header div.table_wrap{
-		display: inline-block;
-		vertical-align: top;
-		text-align: center;
-		width: calc(40% - 20px);
-		padding-right: 20px;
-	}
-
-	header div.article:before{
-		top: -65px;
-		left: 510px;
-		width: 350px;
-		background-size: 100% auto;
-	}
-
-	header table:before {
-		left: -105px;
-		background-size: 90px 150px;
-		width: 90px;
-		height: 150px;
-	}
-
-	header table:after {
-	  right: -105px;
-	  background-size: 90px 150px;
-	  width: 90px;
-	  height: 150px;
-	}
-
-	div.wrap.offer1 {
-		background-attachment: inherit;
-	}
-
-	div.wrap.offer2 {
-		background-attachment: inherit;
-	}
-
-	div.wrap.offer3 {
-		background-attachment: inherit;
-
-	}
-
-	div.wrap.offer4 {
-	  background-position: -540px center;
-	  background-attachment: inherit;
-	}
-
 }
